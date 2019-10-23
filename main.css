@@ -1,0 +1,177 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.image1 {
+  background: url(img/image1.jpg);
+}
+
+.image2 {
+  background: url(img/image2.png);
+}
+
+.image3 {
+  background: url(img/image3.jpg);
+}
+
+.image4 {
+  background: url(img/image4.jpg);
+}
+
+.image1, .image2, .image3, .image4 {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.imageText {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 75px;
+  color: rgb(255, 0, 0);
+}
+
+h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.textBox {
+  margin: auto;
+  padding: 20px 0;
+  width: 80vw;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.section {
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.textBoxContact {
+  margin: auto;
+  padding: 20px 0;
+  width: 80vw;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.imageTextContact {
+  position: relative;
+  top: 20%;
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 70px;
+}
+
+.imageTextContact h1 {
+  margin-bottom: 0;
+}
+
+@media(max-width: 1025px){
+  p {
+    width: 80%;
+  }
+
+  h1 {
+    width: 80%;
+    margin: auto;
+    font-size: 60px;
+  }
+
+  .imageText {
+    top: 45%;
+  }
+
+  .imageTextContact {
+    top: 38%;
+  }
+
+  .image1, .image2, .image3, .image4 {
+    height: 100vh;
+  }
+}
+
+@media(max-width: 770px){
+  p {
+    width: 80%;
+  }
+
+  h1 {
+    width: 80%;
+    margin: auto;
+    font-size: 43px;
+  }
+
+  .imageText {
+    top: 45%;
+  }
+
+  .imageTextContact {
+    top: 35%;
+  }
+
+  .textBoxContact {
+    padding: 20px 0 20px 0;
+  }
+
+  .image1, .image2, .image3, .image4 {
+    height: 100vh;
+  }
+}
+
+@media(max-width: 450px){
+  p {
+    width: 90%;
+  }
+
+  h1 {
+    width: 80%;
+    margin: auto;
+    font-size: 43px;
+  }
+
+  .imageText {
+    top: 38%;
+  }
+
+  .imageTextContact {
+    top: 30%;
+  }
+
+  .textBoxContact {
+    padding: 20px 0 20px 0;
+  }
+
+  .image1, .image2, .image3, .image4 {
+    height: 100vh;
+  }
+}
