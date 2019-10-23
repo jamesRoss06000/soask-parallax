@@ -96,82 +96,76 @@ p {
   margin-bottom: 0;
 }
 
-@media(max-width: 1025px){
+@media(max-width: 1025px) {
   p {
     width: 80%;
   }
-
   h1 {
     width: 80%;
     margin: auto;
     font-size: 60px;
   }
-
   .imageText {
     top: 45%;
   }
-
   .imageTextContact {
     top: 38%;
   }
-
   .image1, .image2, .image3, .image4 {
     height: 100vh;
   }
 }
 
-@media(max-width: 770px){
+@media(max-width: 770px) {
   p {
     width: 80%;
   }
-
   h1 {
     width: 80%;
     margin: auto;
     font-size: 43px;
   }
-
   .imageText {
     top: 45%;
   }
-
   .imageTextContact {
     top: 35%;
   }
-
   .textBoxContact {
     padding: 20px 0 20px 0;
   }
-
   .image1, .image2, .image3, .image4 {
     height: 100vh;
   }
 }
 
-@media(max-width: 450px){
+@media(max-width: 450px) {
   p {
     width: 90%;
   }
-
   h1 {
     width: 80%;
     margin: auto;
     font-size: 43px;
   }
-
   .imageText {
     top: 38%;
   }
-
   .imageTextContact {
     top: 30%;
   }
-
   .textBoxContact {
     padding: 20px 0 20px 0;
   }
-
   .image1, .image2, .image3, .image4 {
     height: 100vh;
+  }
+}
+
+@media(max-width: 380px) {
+  h1 {
+    width: 80%;
+    margin: auto;
+    font-size: 35px;
   }
 }
