@@ -146,7 +146,7 @@ p {
   h1 {
     width: 80%;
     margin: auto;
-    font-size: 43px;
+    font-size: 40px;
   }
   .imageText {
     top: 38%;
@@ -162,7 +162,7 @@ p {
   }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 420px) {
   h1 {
     width: 80%;
     margin: auto;
