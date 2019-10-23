@@ -143,6 +143,7 @@ p {
 @media(max-width: 450px) {
   p {
     width: 90%;
+    font-size: 12px;
   }
   h1 {
     width: 80%;
